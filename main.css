@@ -10,6 +10,7 @@ h1, h2 {
 
 p {
     color: white;
+    text-align: center;
 }
 
 .container {
@@ -29,7 +30,10 @@ without getting distorted. */
     border-radius: .5em;
 }
 
+/* Tried to space the buttons a bit better */
 .row {
+    display: flex;
+    flex-flow: row wrap;
     padding: 4em;
     justify-content: space-around;
 }
