@@ -1,0 +1,35 @@
+/* * {
+    border: solid 1px rgb(216, 152, 206);
+} */
+
+h1, h2 {
+    text-align: center;
+    padding: .5em 3em;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    margin: .5em 1em;
+}
+
+/* Resized the banner. Just having difficulties getting it to be larger
+without getting distorted. */
+#bannerImg {
+    height: auto;
+    width: auto;
+}
+
+#textBlurb {
+    border: 1px solid #24878e;
+    border-left: 3px solid #24878e;
+    border-radius: .5em;
+}
+
+.row {
+    padding: 4em;
+    justify-content: space-around;
+}
